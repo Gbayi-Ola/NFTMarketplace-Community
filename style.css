@@ -1,0 +1,189 @@
+.text-yellow{
+    color: #D6EF0E;
+}
+.btn-bg{
+    background-color:#D6EF0E;
+}
+body{
+    background-color: #000;
+    background-image: linear-gradient(to right, #0000, #0d1627);
+    color: #ffffff !important;
+}
+.offcanvas-bg{
+    background-color: #0d1627;
+}
+.offcanvas-bg button, .pop button{ 
+    background-color: #D6EF0E;
+    padding: 0px 35px;
+}
+
+/* DISCOVER NFT */
+.discover{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.discover-font{
+    font-family:Canela; 
+    font-size: 30px;
+}
+.discover h1{
+    font-family:Canela; 
+    font-weight: 500px; 
+    font-size: 64px; 
+    line-height: 76.8px;
+}
+.discover .card{
+    margin-top: -60px; 
+    margin-right: -20px; 
+    background-color: #131e3a;
+}
+
+
+/* AMAZING WEEK */
+
+.amaz .card{
+    background-color: #131e3a;
+    color: #ffffff;
+}
+
+
+
+/* BEST NFTS */
+.best{
+    margin-top: 110px;
+    padding-bottom: 70px;
+}
+.best h1{
+    margin-top: 90px;
+    font-family:Canela; 
+}
+
+/* POPULAR ARTIST */
+
+.pop{
+    padding-bottom: 80px;
+}
+.pop .card{
+    background-color: #131e3a;
+}
+.pop .card1, .pop .card2, .pop .card3, .pop .card4{
+    margin-top: 180px;
+}
+.pop .card5{
+    margin-top: 460px;
+}
+
+/* SUBSCRIBE */
+.sub{
+    padding-bottom: 80px;
+}
+.sub h3{
+    font-family:Canela; 
+    font-weight: 200px;
+    font-size: 40px;
+}
+.sub .subcol2{
+    margin-top: 90px;
+    
+}
+
+
+            /* MEDIAQUERY */
+
+/* DISCOVER NFT */
+@media (max-width:591px){
+    .discover .card{
+        margin-top: -60px; 
+        margin-right: -10px; 
+        background-color: #131e3a;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .discover h1{
+        font-family:Canela; 
+        font-weight: 500px; 
+        font-size: 40px; 
+        line-height: 76.8px;
+    }
+}
+
+/* AMAZING WEEK */
+
+
+/* BEST NFTs */
+
+@media (max-width:767px){
+    .best{
+        margin-top: 50px;
+    }
+    .best h1{
+        margin-top: 0;
+        text-align: center;
+    }
+}
+@media (min-width:668px) and (max-width:991px){
+    .best h1{
+        margin-top: 30px;
+    }
+}
+
+
+        /* POPULAR ARTIST */
+@media (max-width:530px) {
+    
+    .pop .card3col .card3, .pop .card4col .card4, .pop .card5col .card5{
+        position: absolute;
+        bottom: 0;
+    }
+    
+}
+        @media (min-width:500px) and (max-width:540px) {
+            .pop .card3, .pop .card4{
+                margin-top: 280px;
+            }
+            
+        }
+
+@media (min-width:540px) and (max-width:767px) {
+    .pop .card3, .pop .card4{
+        margin-top: 290px;
+    } 
+    .pop .card5{
+        margin-top: 700px;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .pop .card3, .pop .card4{
+        margin-top: 160px;
+    }
+    .pop .card5{
+        margin-top: 430px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .pop .card3, .pop .card4{
+        margin-top: 135px;
+    }
+    .pop .card5{
+    margin-top: 370px;
+}
+}
+
+/* SOCIAL/FOOTER */
+
+@media (min-width:1200px) {
+    .soc .social{
+        margin-left: 90px;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .soc .social{
+        margin-left: 50px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    .soc .social{
+        margin-left: 70px;
+    }
+}
